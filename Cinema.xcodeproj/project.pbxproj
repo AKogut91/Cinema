@@ -20,7 +20,6 @@
 		11654055243E28B200AC4BDE /* SearchMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11654054243E28B200AC4BDE /* SearchMovieModel.swift */; };
 		11C3EF6C243E605E00D93AAD /* MoviePosterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3EF6A243E605E00D93AAD /* MoviePosterTableViewCell.swift */; };
 		11C3EF6D243E605E00D93AAD /* MoviePosterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C3EF6B243E605E00D93AAD /* MoviePosterTableViewCell.xib */; };
-		11C3EF6F243E607900D93AAD /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3EF6E243E607900D93AAD /* UITableView+Extension.swift */; };
 		11C3EF71243E61DB00D93AAD /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3EF70243E61DB00D93AAD /* UIImageView+Extension.swift */; };
 		11C3EF73243E676800D93AAD /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3EF72243E676800D93AAD /* Cache.swift */; };
 		11C3EF76243E6BA000D93AAD /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3EF75243E6BA000D93AAD /* UITableViewCell+Extension.swift */; };
@@ -29,6 +28,7 @@
 		11C3EF81243E701300D93AAD /* MovieDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3EF80243E701200D93AAD /* MovieDescriptionViewController.swift */; };
 		11C3EF88243E7EA400D93AAD /* PosterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3EF86243E7EA400D93AAD /* PosterTableViewCell.swift */; };
 		11C3EF89243E7EA400D93AAD /* PosterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C3EF87243E7EA400D93AAD /* PosterTableViewCell.xib */; };
+		11C3EF8B243E81F100D93AAD /* UITableView+Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3EF8A243E81F100D93AAD /* UITableView+Extansion.swift */; };
 		11DAB688243E43E60091CDA5 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAB687243E43E60091CDA5 /* URL+Extension.swift */; };
 		11DAB68A243E440F0091CDA5 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAB689243E440F0091CDA5 /* Dictionary+Extension.swift */; };
 		11DAB690243E4A7E0091CDA5 /* CinemaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAB68F243E4A7E0091CDA5 /* CinemaPresenter.swift */; };
@@ -50,7 +50,6 @@
 		11654054243E28B200AC4BDE /* SearchMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMovieModel.swift; sourceTree = "<group>"; };
 		11C3EF6A243E605E00D93AAD /* MoviePosterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterTableViewCell.swift; sourceTree = "<group>"; };
 		11C3EF6B243E605E00D93AAD /* MoviePosterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviePosterTableViewCell.xib; sourceTree = "<group>"; };
-		11C3EF6E243E607900D93AAD /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		11C3EF70243E61DB00D93AAD /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		11C3EF72243E676800D93AAD /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		11C3EF75243E6BA000D93AAD /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		11C3EF80243E701200D93AAD /* MovieDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDescriptionViewController.swift; sourceTree = "<group>"; };
 		11C3EF86243E7EA400D93AAD /* PosterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterTableViewCell.swift; sourceTree = "<group>"; };
 		11C3EF87243E7EA400D93AAD /* PosterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PosterTableViewCell.xib; sourceTree = "<group>"; };
+		11C3EF8A243E81F100D93AAD /* UITableView+Extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extansion.swift"; sourceTree = "<group>"; };
 		11DAB687243E43E60091CDA5 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		11DAB689243E440F0091CDA5 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		11DAB68F243E4A7E0091CDA5 /* CinemaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaPresenter.swift; sourceTree = "<group>"; };
@@ -138,9 +138,9 @@
 			children = (
 				11DAB687243E43E60091CDA5 /* URL+Extension.swift */,
 				11DAB689243E440F0091CDA5 /* Dictionary+Extension.swift */,
-				11C3EF6E243E607900D93AAD /* UITableView+Extension.swift */,
 				11C3EF70243E61DB00D93AAD /* UIImageView+Extension.swift */,
 				11C3EF75243E6BA000D93AAD /* UITableViewCell+Extension.swift */,
+				11C3EF8A243E81F100D93AAD /* UITableView+Extansion.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -338,10 +338,10 @@
 				11654055243E28B200AC4BDE /* SearchMovieModel.swift in Sources */,
 				11C3EF76243E6BA000D93AAD /* UITableViewCell+Extension.swift in Sources */,
 				11C3EF7F243E6FF700D93AAD /* MovieDescriptionPresenter.swift in Sources */,
+				11C3EF8B243E81F100D93AAD /* UITableView+Extansion.swift in Sources */,
 				11C3EF71243E61DB00D93AAD /* UIImageView+Extension.swift in Sources */,
 				11654047243E20B800AC4BDE /* CinemaViewController.swift in Sources */,
 				11C3EF7A243E6E3500D93AAD /* MovieModel.swift in Sources */,
-				11C3EF6F243E607900D93AAD /* UITableView+Extension.swift in Sources */,
 				1165402E243E1BD700AC4BDE /* AppDelegate.swift in Sources */,
 				1165404A243E231B00AC4BDE /* NetworkService.swift in Sources */,
 				11DAB688243E43E60091CDA5 /* URL+Extension.swift in Sources */,
